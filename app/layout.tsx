@@ -8,9 +8,8 @@ import WhatsAppFloat from "@/components/whatsapp-float"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "PetPath - The Best Care for Your Best Friend",
-  description: "Professional pet care services including grooming, boarding, and walking",
-    generator: 'v0.dev'
+  title: "Lucas Dog Walker - Cuidando do seu melhor amigo",
+  description: "Serviços de passeio para cães, cuidados com seu melhor amigo"
 }
 
 export default function RootLayout({
