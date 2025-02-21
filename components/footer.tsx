@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react"
+import { Instagram, MapPin, Phone, Mail } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -35,10 +35,12 @@ export default function Footer() {
               Cuidados profissionais e dedicados para seu pet na Zona Leste de São Paulo.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors">
-                <Facebook className="w-4 h-4 text-white" />
-              </a>
-              <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors">
+              <a
+                href="https://www.instagram.com/dogwalker_belenzinho?igsh=MW9jaXR5M3ZiNTBoMg%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors"
+              >
                 <Instagram className="w-4 h-4 text-white" />
               </a>
             </div>
